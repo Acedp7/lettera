@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#fff7f8">
+    <meta name="description" content="Una lettera d'amore per il nostro mesiversario.">
+    <title>Per te, amore mio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <div class="floating-heart heart-one" aria-hidden="true">♡</div>
+      <div class="floating-heart heart-two" aria-hidden="true">♡</div>
+
+      <section class="opening" id="opening" aria-labelledby="opening-title">
+        <h1 id="opening-title">c'è un messaggio fra</h1>
+        <div class="envelope-scene">
+          <div class="envelope" aria-hidden="true">
+            <div class="envelope-back"></div>
+            <div class="letter-preview"><span>per te</span><span class="preview-heart">♥</span></div>
+            <div class="envelope-pocket"></div>
+            <div class="envelope-flap"></div>
+            <div class="envelope-seal">♥</div>
+          </div>
+          <button class="open-letter" id="open-letter" type="button" aria-controls="love-letter" aria-expanded="false">
+            Apri la lettera <span aria-hidden="true">♡</span>
+          </button>
+        </div>
+      </section>
+
+      <div class="flower-burst" id="flower-burst" aria-hidden="true"></div>
+
+      <article class="letter-card" id="love-letter" aria-labelledby="letter-heading" hidden>
+        <div class="letter-topline"><span>con tutto il mio amore</span><span aria-hidden="true">♡</span></div>
+        <div class="letter-divider" aria-hidden="true"><span>✿</span></div>
+        <h2 id="letter-heading" class="visually-hidden">Una lettera per te</h2>
+        <div class="letter-copy">
+          <p class="letter-copy" tabindex="-1">Buon mesiversario amore mio, so che un altro mese insieme dopo tutti gli altri può sembrare poco, e so anche che questo è un pensierino che già hai ricevuto, ma sono felicissimo di avere te come fidanzata per l'ennesimo mese!, e inoltre è un idea che mi piace di piu' rispetto alle altre, quindi spero che tu non noti questo particolare... visto che non posso farti pensierini dal vivo te li faccio così!</p>
+          <p class="virtual-kiss">ABBRACCIO E BACIO VIRTUALI</p>
+          <p>ti amo</p>
+          <p>giuseppe il capo del mondo aura goat sigma skibidi rizz.</p>
+        </div>
+
+        <a
+          class="music-link"
+          href="https://music.youtube.com/search?q=Geolier%20Canzone%20d%27amore"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-describedby="music-feedback"
+        >
+          <span class="music-icon" aria-hidden="true">♫</span>
+          <span class="music-label"><strong>La nostra canzone</strong><span>Ascolta “Canzone d’amore” di Geolier</span></span>
+          <span class="music-arrow" aria-hidden="true">↗</span>
+        </a>
+        <p class="music-feedback" id="music-feedback" aria-live="polite">Tocca per cercare la canzone su YouTube Music, poi premi play nel player. Se non parte, controlla il volume o avvia la riproduzione dal player.</p>
+
+        <div class="photo-gallery" aria-label="I nostri ricordi">
+          <figure>
+            <img src="assets/ricordo-1.png" alt="Un ricordo speciale insieme">
+          </figure>
+          <figure>
+            <img src="assets/ricordo-2.jpg" alt="Un momento felice da custodire">
+          </figure>
+          <figure>
+            <img src="assets/ricordo-3.jpg" alt="Un altro dei nostri momenti speciali">
+          </figure>
+        </div>
+        <p class="signoff" aria-hidden="true">♡</p>
+      </article>
+    </main>
+  </body>
+</html>
